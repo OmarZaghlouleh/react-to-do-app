@@ -47,7 +47,7 @@ export default function Column({ taskType }: { taskType: string }) {
         <div className="flex flex-row items-center justify-center">
           <p className="font-medium text-gray-300 mr-1">{tasks.length}</p>
           <img
-            src="src/assets/close.svg"
+            src="./src/assets/close.svg"
             alt="delete all"
             title="Delete all"
             className="w-4 h-10 cursor-pointer mx-2"
