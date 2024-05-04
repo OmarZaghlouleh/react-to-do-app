@@ -1,5 +1,4 @@
-# React + TypeScript + Vite + Zustand
-# React To-Do App
+# To-Do App Built With React + TypeScript + Vite + Zustand
 # How to run
   - npm install
   - npm run dev
