@@ -41,7 +41,7 @@ export default function AddTask() {
   };
 
   return (
-    <div className="flex justify-center items-center m-4 w-full fixed bg-slate-950 right-0 -top-4 h-16 shadow-sm shadow-cyan-500">
+    <div className="flex justify-center items-center m-4 w-full fixed bg-slate-950 -right-4 -top-4 h-16 shadow-sm shadow-cyan-500">
       <input
         type="text"
         id="taskName"
