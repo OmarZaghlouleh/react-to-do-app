@@ -4,6 +4,8 @@ import { useState } from "react";
 import { getTypeTextColor } from "../utils/functions";
 import { useShallow } from "zustand/react/shallow";
 
+import closeSvg from "../assets/close.svg";
+
 export default function Column({ taskType }: { taskType: string }) {
   const [draggingOver, setDraggingOver] = useState(false);
   // Store
@@ -47,7 +49,7 @@ export default function Column({ taskType }: { taskType: string }) {
         <div className="flex flex-row items-center justify-center">
           <p className="font-medium text-gray-300 mr-1">{tasks.length}</p>
           <img
-            src="./src/assets/close.svg"
+            src={closeSvg}
             alt="delete all"
             title="Delete all"
             className="w-4 h-10 cursor-pointer mx-2"
